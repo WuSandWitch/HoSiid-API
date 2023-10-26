@@ -10,7 +10,7 @@ from pydantic import BaseModel
 import openai
 import json
 from typing import List
-openai.api_key = '才不告訴你勒'
+openai.api_key = '才不告訴膩雷'
 
 R = 6373.0
 

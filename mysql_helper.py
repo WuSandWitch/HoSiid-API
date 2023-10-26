@@ -7,9 +7,9 @@ class mysql_helper:
     def __enter__(self):
         try:
             self.connection = pymysql.connect(
-                host="db-jiabar.ceh6fst78slz.ap-northeast-1.rds.amazonaws.com",
-                user="jiabar",
-                passwd="jiabar10211022",
+                host="host",
+                user="user",
+                passwd="password",
                 database=self.dbName)
             self.cursor = self.connection.cursor(pymysql.cursors.DictCursor)
             print('Connect db successful!')
